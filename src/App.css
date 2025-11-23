@@ -10,7 +10,8 @@
   justify-content: center;
   align-items: center;
     font-family: "Science Gothic", sans-serif;
-    gap: 70px;
+    gap: 35px;
+    color: black;
 }
 
 .typewriter h1 {
@@ -33,7 +34,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: rgb(202, 10, 10); }
 }
 
 .headline{
@@ -44,4 +45,12 @@
     justify-content: center;
     align-items: center;
     color: #1A1A1A;
+    font-family: "Science Gothic", sans-serif;
+}
+.avatar{
+  position: absolute;
+    top: 9%;
+    left: 90%;
+    width: 5%;
+    height: 6%;
 }
